@@ -343,7 +343,7 @@ select {
   min-width: 10rem;
   height: 2.75rem;
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: #ffffff;
   color: #666666;
   border: 0.0625rem solid #cccccc;
   border-radius: 0.3125rem;
