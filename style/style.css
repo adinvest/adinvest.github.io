@@ -117,7 +117,6 @@ main {
   border-radius: 50%;
 }
 .topBtn:hover {
-  background-color: #ffffff;
   color: var(--first-color);
 }
 .arrow {
@@ -164,7 +163,7 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem 0 1rem;
-  font-size: var(--smallest-font-size);
+  font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 .copy3 {
@@ -172,7 +171,7 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem 0.5rem 1rem;
-  font-size: var(--smallest-font-size);
+  font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 
