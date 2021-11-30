@@ -6,8 +6,8 @@ var topbutton = document.getElementById("topBtn");
 
       function scrollFunction() {
         if (
-          document.body.scrollTop > 140 ||
-          document.documentElement.scrollTop > 140
+          document.body.scrollTop > 150 ||
+          document.documentElement.scrollTop > 150
         ) {
           topbutton.style.display = "block";
         } else {
