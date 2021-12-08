@@ -30,7 +30,7 @@ $recaptcha = $_POST['g-recaptcha-response'];
  
 if(!empty($recaptcha)) {
     $recaptcha = $_REQUEST['g-recaptcha-response'];
-    $secret = '6LdKkIIdAAAAAFKX8l3wyYiViQWWXtvaFlDFYhA-';
+    $secret = 'secret_key_here';
     $url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secret ."&response=".$recaptcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
