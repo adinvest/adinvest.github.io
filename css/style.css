@@ -59,6 +59,13 @@ body {
   margin: 0 !important;
 }
 
+.g-recaptcha {
+  display: block;
+  background-color: #fafafa;
+  color: #383838;
+  cursor: pointer;
+}
+
 .btnfirst {
   display: inline-block;
   margin: 0 auto;
