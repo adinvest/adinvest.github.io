@@ -24,8 +24,8 @@
 
 body,
 html {
-  padding: 0;
   margin: 0;
+  padding: 0;
   max-height: 100vh;
   height: 100%;
   scroll-behavior: smooth;
@@ -532,7 +532,7 @@ body.blog.dark .comments-form form .input-field label {
 
 .bl-box h2 {
   width: 100%;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   margin: 0 auto;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -622,7 +622,7 @@ section.bl-expand .bl-icon-close {
   margin: 0 auto;
   font-size: var(--normal-font-size);
   line-height: 2;
-  color: #656c6d;
+  color: #afb4b6;
   font-weight: 400;
 }
 
@@ -652,7 +652,7 @@ section.bl-expand .bl-icon-close {
 }
 .agro4 {
   color: #8c8c8c;
-  font-size: var(--small-font-size);
+  font-size: var(--smallest-font-size);
   text-align: center;
   word-spacing: 0.125rem;
   margin-top: -0.0625rem;
