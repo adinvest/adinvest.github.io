@@ -299,7 +299,7 @@ body.blog.dark .comments-form form .input-field label {
   font-size: 1.5rem;
   position: relative;
   z-index: 0;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -647,12 +647,12 @@ section.bl-expand .bl-icon-close {
   color: #129e83;
   font-size: var(--h1-font-size);
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: -0.0625rem;
 }
 .agro4 {
   color: #8c8c8c;
-  font-size: var(--smallest-font-size);
+  font-size: var(--small-font-size);
   text-align: center;
   word-spacing: 0.125rem;
   margin-top: -0.0625rem;
@@ -661,7 +661,7 @@ section.bl-expand .bl-icon-close {
 .bl-main > section.topleft .bl-box h3 {
   font-size: 1.5rem;
   margin: 1.5625rem 0 0.3125rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .bl-main > section.topleft .bl-box h3 span {
@@ -779,7 +779,7 @@ section.bl-expand .bl-icon-close {
   font-size: var(--normal-font-size);
 }
 .primer:hover {
-  color: #129e83;
+  color: #fafafa;
 }
 .primer:active {
   color: #14b897;
@@ -1137,7 +1137,8 @@ ul.social-intro {
   .output_message {
   display: block;
   height: 2.75rem;
-  color: #111111;
+  backgrond-color: #129e83;
+  color: #fafafa;
   font-family: var(--body-font);
   font-weight: 600;
   line-height: 42px;
@@ -1150,7 +1151,7 @@ ul.social-intro {
   .rightside
   form
   .output_message.success {
-  background: #fbbc05;
+  background-color: #17cfaa;
   background-image: initial;
   background-position-x: initial;
   background-position-y: initial;
@@ -1169,7 +1170,6 @@ ul.social-intro {
   font-family: Arial;
   content: "\f14a";
   padding-right: 0.625rem;
-  color: #111111;
 }
 
 .bl-main
@@ -1178,7 +1178,7 @@ ul.social-intro {
   .rightside
   form
   .output_message.error {
-  background: #fafafa;
+  background-color: #0f8a71;
 }
 
 .bl-main
