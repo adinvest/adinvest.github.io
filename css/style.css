@@ -1,5 +1,5 @@
 :root {
-  --body-font: Arial, sans-serif;
+  --body-font: Verdana, sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.625rem;
   --h2-font-size: 1.5rem;
@@ -40,8 +40,8 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  color: #656c6d;
+  font-family: Verdana, sans-serif;
+  color: #fafafa;
   background: #333;
   font-size: var(--normal-font-size);
   font-weight: 400;
@@ -77,7 +77,7 @@ body {
   background-color: #129E83;
   border: 0.0625rem solid #111111;
   border-radius: 0.75rem;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-weight: bold;
   color: #fafafa;
   font-size: var(--normal-font-size);
@@ -93,7 +93,7 @@ body {
 }
 
 .btn {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   box-shadow: none;
   border-radius: 0;
 }
@@ -652,7 +652,7 @@ section.bl-expand .bl-icon-close {
 }
 .agro4 {
   color: #8c8c8c;
-  font-size: var(--small-font-size);
+  font-size: var(--smallest-font-size);
   text-align: center;
   word-spacing: 0.125rem;
   margin-top: -0.0625rem;
@@ -698,7 +698,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .infinity_clients {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -762,7 +762,7 @@ section.bl-expand .bl-icon-close {
   color: #14b897;
 }
 .zdes2:hover {
-  color: #129e83;
+  color: #fafafa;
 }
 .zdes2:active {
   color: #14b897;
@@ -1167,7 +1167,7 @@ ul.social-intro {
   .rightside
   form
   .output_message.success:before {
-  font-family: Arial;
+  font-family: Verdana, sans-serif;
   content: "\f14a";
   padding-right: 0.625rem;
 }
@@ -1187,7 +1187,7 @@ ul.social-intro {
   .rightside
   form
   .output_message.error:before {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   content: "\f071";
   padding-right: 0.625rem;
 }
