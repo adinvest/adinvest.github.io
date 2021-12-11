@@ -1,7 +1,7 @@
 :root {
   --body-font: Arial, sans-serif;
   --big-font-size: 2rem;
-  --h1-font-size: 1.75rem;
+  --h1-font-size: 1.625rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -637,17 +637,18 @@ section.bl-expand .bl-icon-close {
 
 .agro {
   display: block;
+  word-spacing: -0.36rem;
 }
 .agro span {
   display: inline-block;
   word-spacing: normal;
 }
 .agro2 {
-  color: #14b897;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: -0.0625rem;
+  color: #129e83;
+  font-size: var(--h1-font-size);
   text-align: center;
+  font-weight: 800;
+  margin-bottom: -0.0625rem;
 }
 .agro4 {
   color: #8c8c8c;
