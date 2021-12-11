@@ -86,10 +86,10 @@ body {
 }
 .btnfirst:hover {
   background-color: #14b897;
-  transition: background-color 0.4s ease-in;
+  transition: background-color 0.3s ease-in;
 }
 .btnfirst:active {
-  background-color: #129E83;
+  background-color: #129e83;
 }
 
 .btn {
@@ -637,14 +637,13 @@ section.bl-expand .bl-icon-close {
 
 .agro {
   display: block;
-  word-spacing: -0.36rem;
 }
 .agro span {
   display: inline-block;
   word-spacing: normal;
 }
 .agro2 {
-  color: #8c8c8c;
+  color: #14b897;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: -0.0625rem;
@@ -652,7 +651,7 @@ section.bl-expand .bl-icon-close {
 }
 .agro4 {
   color: #8c8c8c;
-  font-size: 1.125rem;
+  font-size: var(--small-font-size);
   text-align: center;
   word-spacing: 0.125rem;
   margin-top: -0.0625rem;
@@ -759,13 +758,13 @@ section.bl-expand .bl-icon-close {
   padding-right: 0.5rem;
 }
 .zdes2 {
-  color: #129E83;
-}
-.zdes2:hover {
   color: #14b897;
 }
+.zdes2:hover {
+  color: #129e83;
+}
 .zdes2:active {
-  color: #129E83;
+  color: #14b897;
 }
 
 .primer0 {
@@ -775,14 +774,14 @@ section.bl-expand .bl-icon-close {
   display: block;
   text-align: left;
   padding-bottom: 1rem;
-  color: #129E83;
+  color: #14b897;
   font-size: var(--normal-font-size);
 }
 .primer:hover {
-  color: #14b897;
+  color: #129e83;
 }
 .primer:active {
-  color: #129E83;
+  color: #14b897;
 }
 
 #bl-work-items {
@@ -821,7 +820,7 @@ section.bl-expand .bl-icon-close {
 #bl-work-items > div a {
   display: block;
   transition: 0.3s ease-out;
-  border: 1px solid #eff0f0;
+  border: 0.0625rem solid #eff0f0;
 }
 
 #bl-work-items > div a span {
