@@ -374,8 +374,6 @@ body.blog.dark .comments-form form .input-field label {
 .page-title h2 span:nth-child(2)::before {
   bottom: 105%;
   color: #555;
-  filter: blur(0.000001px);
-  -webkit-filter: blur(0.000001px);
 }
 
 /* Divider
