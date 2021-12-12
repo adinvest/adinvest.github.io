@@ -296,7 +296,7 @@ body.blog.dark .comments-form form .input-field label {
 }
 
 .page-title h2 {
-  font-size: 1.5rem;
+  font-size: var(--h2-font-size);
   position: relative;
   z-index: 0;
   font-weight: 700;
@@ -305,7 +305,7 @@ body.blog.dark .comments-form form .input-field label {
 
 .title-bg {
   color: rgba(30, 37, 48, 0.07);
-  font-size: 1.875rem;
+  font-size: var(--h1-font-size);
   left: 0;
   letter-spacing: 0.625rem;
   line-height: 0.7;
@@ -620,7 +620,7 @@ section.bl-expand .bl-icon-close {
   margin: 0 auto;
   font-size: var(--normal-font-size);
   line-height: 2;
-  color: #afb4b6;
+  color: #fafafa;
   font-weight: 400;
 }
 
@@ -643,7 +643,7 @@ section.bl-expand .bl-icon-close {
 }
 .agro2 {
   color: #129e83;
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   text-align: center;
   font-weight: 700;
 }
@@ -656,7 +656,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main > section.topleft .bl-box h3 {
-  font-size: 1.5rem;
+  font-size: var(--h2-font-size);
   margin: 1.5625rem 0 0.3125rem;
   font-weight: 700;
 }
